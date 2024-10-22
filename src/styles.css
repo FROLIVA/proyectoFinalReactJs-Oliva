@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s; /* Animación al pasar el mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+h1, h2, h5 {
+    color: #333; /* Color de texto */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Espacio debajo del navbar */
+}
+
+.item-list-container {
+    padding: 20px; /* Espacio en la parte superior e inferior */
+}
+
+
+.cart-widget {
+    position: relative;
+}
+
+.cart-dropdown {
+    position: absolute;
+    top: 100%; /* Coloca el menú justo debajo del botón */
+    right: 0; /* Alinea el menú a la derecha */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    padding: 10px;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+}
+
+.cart-dropdown .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-menu {
+    max-height: 300px; /* Limita la altura del menú */
+    overflow-y: auto; /* Agrega desplazamiento si es necesario */
+}
+
+.item-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+h2 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+
+.dropdown {
+    margin: 20px 0;
+}
